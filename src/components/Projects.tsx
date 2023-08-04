@@ -56,6 +56,38 @@ const Projects = () => {
           >
             <CardMedia
               sx={{ height: 140 }}
+              image="/recipe-app-logo.jpg"
+              title="green iguana"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Recipe App
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                A Recipe App built with mern stack and deployed using microsoft
+                azure
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button href="http://recipe.praveenreddy.me" size="small">
+                Open
+              </Button>
+            </CardActions>
+          </Card>
+        </Grid>
+        <Grid item style={{ display: "flex" }}>
+          <Card
+            sx={{
+              maxWidth: 300,
+              minHeight: 375,
+              margin: "5px",
+              display: "flex",
+              justifyContent: "space-between",
+              flexDirection: "column",
+            }}
+          >
+            <CardMedia
+              sx={{ height: 140 }}
               image="/covid.jpg"
               title="green iguana"
             />
@@ -70,7 +102,7 @@ const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button href="http://dot.praveenreddy.tech" size="small">
+              <Button href="http://dot.praveenreddy.me" size="small">
                 Open
               </Button>
             </CardActions>
@@ -103,7 +135,7 @@ const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button href="http://isl.praveenreddy.tech" size="small">
+              <Button href="http://isl.praveenreddy.me" size="small">
                 Open
               </Button>
             </CardActions>
@@ -134,7 +166,7 @@ const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button href="http://fnd.praveenreddy.tech" size="small">
+              <Button href="http://fnd.praveenreddy.me" size="small">
                 Open
               </Button>
             </CardActions>
@@ -166,7 +198,7 @@ const Projects = () => {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button href="http://sfcm.praveenreddy.tech" size="small">
+              <Button href="http://sfcm.praveenreddy.me" size="small">
                 Open
               </Button>
             </CardActions>
